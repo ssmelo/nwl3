@@ -1,0 +1,14 @@
+Para criar projetos react:
+// npx create-react-app 'nome_do_projeto' --template typescript
+
+Para rodar:
+// npm start
+
+No react, todo o codigo é renderizado no id root do arquivo public.html.
+Essa atribuiçao ocorre atraves do index.tsx que chama a div principal App.
+
+// Para uso de rotas, criamos um arquivos routes.tsx na raiz da src.
+// Nesse arquivo precisamos instalar: react-router-dom
+// Encapsulamos as rotas da forma que esta no arquivo.
+// passamos o caminho e o componente aser reenderizado.
+// O switch serve para renderizar apenas um componenete em cada rota.
